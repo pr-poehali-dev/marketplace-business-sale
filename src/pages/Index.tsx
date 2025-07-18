@@ -12,13 +12,16 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-xl font-montserrat font-bold text-business-gray">
+              <a href="/" className="text-xl font-montserrat font-bold text-business-gray hover:text-primary transition-colors">
                 BUSINESS INVESTMENTS
-              </h1>
+              </a>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#services" className="text-business-gray hover:text-primary transition-colors">
                 Услуги
+              </a>
+              <a href="/china" className="text-business-gray hover:text-primary transition-colors">
+                Инвестиции в Китай
               </a>
               <a href="#opportunities" className="text-business-gray hover:text-primary transition-colors">
                 Возможности
@@ -163,15 +166,17 @@ const Index = () => {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                    <Icon name="Check" size={20} className="text-white" />
+                  <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Icon name="Star" size={20} className="text-white" />
                   </div>
                   <div>
                     <h3 className="font-montserrat font-semibold text-business-gray mb-2">
-                      Международные площадки
+                      <a href="/china" className="hover:text-primary transition-colors">
+                        Готовый бизнес с Китаем - 90% годовых
+                      </a>
                     </h3>
                     <p className="text-gray-600">
-                      Amazon, eBay, AliExpress - доступ к глобальному рынку
+                      Уникальное предложение: инвестиции в прибыльные поставки из Китая
                     </p>
                   </div>
                 </div>
@@ -188,6 +193,15 @@ const Index = () => {
                       Прозрачная финансовая отчетность и аналитика продаж
                     </p>
                   </div>
+                </div>
+                
+                <div className="mt-8">
+                  <Button size="lg" className="w-full bg-red-600 hover:bg-red-700 text-white">
+                    <a href="/china" className="flex items-center justify-center w-full">
+                      <Icon name="ArrowRight" size={20} className="mr-2" />
+                      Перейти к предложению "Бизнес с Китаем"
+                    </a>
+                  </Button>
                 </div>
               </div>
             </div>

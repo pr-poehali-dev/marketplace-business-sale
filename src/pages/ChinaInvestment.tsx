@@ -13,9 +13,9 @@ const ChinaInvestment = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-xl font-montserrat font-bold text-business-gray">
+              <a href="/" className="text-xl font-montserrat font-bold text-business-gray hover:text-primary transition-colors">
                 BUSINESS INVESTMENTS
-              </h1>
+              </a>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="/" className="text-business-gray hover:text-primary transition-colors">
