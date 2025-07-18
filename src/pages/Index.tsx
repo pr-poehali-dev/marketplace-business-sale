@@ -48,7 +48,9 @@ const Index = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-white text-primary hover:bg-gray-100">
-                  Посмотреть предложения
+                  <a href="/china" className="block w-full h-full">
+                    Посмотреть предложения
+                  </a>
                 </Button>
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
                   Узнать подробнее
